@@ -10,9 +10,9 @@ const port = process.env.PORT ? parseInt(process.env.PORT) : 3000
 export default defineConfig(({mode}) => ({
   plugins: [
     svgr(),
-    visualizer(),
     react({fastRefresh: false}),
     qiankun('orchy-react-js-typescript-template', {useDevMode: true}),
+    visualizer(),
   ],
   base: mode === 'development' ? `http://localhost:${port}/` : '/orchy-react-js-typescript-template/',
   server: {port},
