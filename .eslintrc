@@ -1,6 +1,8 @@
 {
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint"],
+  "plugins": [
+    "@typescript-eslint"
+  ],
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
@@ -32,6 +34,13 @@
     ],
     "react/no-unused-prop-types": 2,
     "react/sort-prop-types": 2,
-    "react/jsx-filename-extension": 2
+    "react/jsx-filename-extension": [
+      2,
+      {
+        "extensions": [
+          ".tsx"
+        ]
+      }
+    ]
   }
 }
