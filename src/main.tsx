@@ -8,7 +8,7 @@ const retrieveContainer = (props: QiankunProps) => props.container ?? document
 
 let root: ReactDOM.Root
 
-const render = (props: QiankunProps) => {
+const render = (props: QiankunProps = {}) => {
   const container = retrieveContainer(props)
   root = ReactDOM.createRoot(container.querySelector('#root') as HTMLElement)
   root.render(
