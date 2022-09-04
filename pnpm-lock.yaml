@@ -12,7 +12,7 @@ specifiers:
   eslint-config-prettier: ^8.5.0
   eslint-config-react-app: ^7.0.1
   eslint-plugin-prettier: ^4.2.1
-  eslint-plugin-react: ^7.31.5
+  eslint-plugin-react: ^7.31.6
   happy-dom: ^6.0.4
   react: ^18.2.0
   react-dom: ^18.2.0
@@ -38,7 +38,7 @@ devDependencies:
   eslint-config-prettier: 8.5.0_eslint@8.23.0
   eslint-config-react-app: 7.0.1_j2dbjqxyzvzithathogtgf7aly
   eslint-plugin-prettier: 4.2.1_tgumt6uwl2md3n6uqnggd6wvce
-  eslint-plugin-react: 7.31.5_eslint@8.23.0
+  eslint-plugin-react: 7.31.6_eslint@8.23.0
   happy-dom: 6.0.4
   rollup-plugin-visualizer: 5.8.1
   vite: 3.0.9
@@ -2808,7 +2808,7 @@ packages:
       eslint-plugin-import: 2.26.0_wyxuyzvlfep3lsyoibc4fosfq4
       eslint-plugin-jest: 25.7.0_vj2biyzi5xv6yshnzimrvgmo7e
       eslint-plugin-jsx-a11y: 6.6.1_eslint@8.23.0
-      eslint-plugin-react: 7.31.5_eslint@8.23.0
+      eslint-plugin-react: 7.31.6_eslint@8.23.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.23.0
       eslint-plugin-testing-library: 5.6.0_yqf6kl63nyoq5megxukfnom5rm
       typescript: 4.8.2
@@ -2974,8 +2974,8 @@ packages:
       eslint: 8.23.0
     dev: true
 
-  /eslint-plugin-react/7.31.5_eslint@8.23.0:
-    resolution: {integrity: sha512-y7472VAcqns17rsQUk6tQCnqBi+boYjGdYarX022719+wGd1T4U1fOYJ2T2Trd3Od2q5M92e42zJ2uZOGmWamA==}
+  /eslint-plugin-react/7.31.6_eslint@8.23.0:
+    resolution: {integrity: sha512-CXu4eu28sb8Sd2+cyUYsJVyDvpTlaXPG+bOzzpS9IzZKtye96AYX3ZmHQ6ayn/OAIQ/ufDJP8ElPWd63Pepn9w==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8
