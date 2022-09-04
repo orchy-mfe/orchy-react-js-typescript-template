@@ -16,7 +16,7 @@ specifiers:
   happy-dom: ^6.0.4
   react: ^18.2.0
   react-dom: ^18.2.0
-  rollup-plugin-visualizer: ^5.8.0
+  rollup-plugin-visualizer: ^5.8.1
   vite: ^3.0.9
   vite-plugin-qiankun: ^1.0.15
   vite-plugin-svgr: ^2.2.1
@@ -40,7 +40,7 @@ devDependencies:
   eslint-plugin-prettier: 4.2.1_tgumt6uwl2md3n6uqnggd6wvce
   eslint-plugin-react: 7.31.4_eslint@8.23.0
   happy-dom: 6.0.4
-  rollup-plugin-visualizer: 5.8.0_rollup@2.77.3
+  rollup-plugin-visualizer: 5.8.1
   vite: 3.0.9
   vite-plugin-qiankun: 1.0.15_dl5nou5ldq7zlftzutsw4wm3t4
   vite-plugin-svgr: 2.2.1_vite@3.0.9
@@ -4175,16 +4175,18 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup-plugin-visualizer/5.8.0_rollup@2.77.3:
-    resolution: {integrity: sha512-pY6j/7qHz5I9rB7d/bQoA5gX+2FbV3MBG055wrsFxDn550bgl0FNViRj6wDHh85PMswv+JVdZjhnMBzz/hdAHA==}
+  /rollup-plugin-visualizer/5.8.1:
+    resolution: {integrity: sha512-NBT/xN/LWCwDM2/j5vYmjzpEAKHyclo/8Cv8AfTCwgADAG+tLJDy1vzxMw6NO0dSDjmTeRELD9UU3FwknLv0GQ==}
     engines: {node: '>=14'}
     hasBin: true
     peerDependencies:
       rollup: ^2.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
     dependencies:
       nanoid: 3.3.4
       open: 8.4.0
-      rollup: 2.77.3
       source-map: 0.7.4
       yargs: 17.5.1
     dev: true
