@@ -9,17 +9,14 @@ describe('App', () => {
         expect(screen.getByText('Click on the Vite and React logos to learn more')).toBeDefined()
     })
 
-    it('count increments correctly', () => {
+    it('count increments correctly', async () => {
         render(<App />)
 
         const initialCountButton = screen.getAllByRole('button').at(0) as HTMLElement
         expect(initialCountButton).toBeDefined()
         expect(initialCountButton.innerHTML).toEqual('count is 0')
 
-        fireEvent(initialCountButton, new MouseEvent('click', {
-            bubbles: true,
-            cancelable: true,
-        }))
+        fireEvent.click(initialCountButton)
 
         expect(initialCountButton.innerHTML).toEqual('count is 1')
     })
