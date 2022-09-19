@@ -1,6 +1,7 @@
 import {StrictMode} from 'react'
 import {createRoot, Root} from 'react-dom/client'
 import {renderWithQiankun, qiankunWindow, QiankunProps} from 'vite-plugin-qiankun/dist/helper'
+import {BrowserRouter} from 'react-router-dom'
 import App from './App'
 import './index.css'
 
@@ -13,7 +14,9 @@ const render = (props: QiankunProps = {}) => {
   root = createRoot(container.querySelector('#root') as HTMLElement)
   root.render(
     <StrictMode>
-      <App />
+      <BrowserRouter basename={props.baseUrl}>
+        <App />
+      </BrowserRouter>
     </StrictMode>
   )
 }
