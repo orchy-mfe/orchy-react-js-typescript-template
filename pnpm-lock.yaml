@@ -4,7 +4,7 @@ specifiers:
   '@orchy-mfe/models': ^0.0.1
   '@testing-library/react': ^13.4.0
   '@testing-library/user-event': ^14.4.3
-  '@types/react': ^18.0.20
+  '@types/react': ^18.0.21
   '@types/react-dom': ^18.0.6
   '@typescript-eslint/eslint-plugin': ^5.38.0
   '@typescript-eslint/parser': ^5.38.0
@@ -33,7 +33,7 @@ devDependencies:
   '@orchy-mfe/models': 0.0.1
   '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
   '@testing-library/user-event': 14.4.3_wl4iynrlixafokvgqnhzlvigei
-  '@types/react': 18.0.20
+  '@types/react': 18.0.21
   '@types/react-dom': 18.0.6
   '@typescript-eslint/eslint-plugin': 5.38.0_aarjygsz6gts43wtwsljfcbzn4
   '@typescript-eslint/parser': 5.38.0_nbcbbd7lfrdtsoifdu7ts5ch5u
@@ -1767,11 +1767,11 @@ packages:
   /@types/react-dom/18.0.6:
     resolution: {integrity: sha512-/5OFZgfIPSwy+YuIBP/FgJnQnsxhZhjjrnxudMddeblOouIodEQ75X14Rr4wGSG/bknL+Omy9iWlLo1u/9GzAA==}
     dependencies:
-      '@types/react': 18.0.20
+      '@types/react': 18.0.21
     dev: true
 
-  /@types/react/18.0.20:
-    resolution: {integrity: sha512-MWul1teSPxujEHVwZl4a5HxQ9vVNsjTchVA+xRqv/VYGCuKGAU6UhfrTdF5aBefwD1BHUD8i/zq+O/vyCm/FrA==}
+  /@types/react/18.0.21:
+    resolution: {integrity: sha512-7QUCOxvFgnD5Jk8ZKlUAhVcRj7GuJRjnjjiY/IUBWKgOlnvDvTMLD4RTF7NPyVmbRhNrbomZiOepg7M/2Kj1mA==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
