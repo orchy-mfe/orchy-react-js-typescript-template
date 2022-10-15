@@ -18,7 +18,7 @@ specifiers:
   react: ^18.2.0
   react-dom: ^18.2.0
   react-router-dom: ^6.4.2
-  rollup-plugin-visualizer: ^5.8.2
+  rollup-plugin-visualizer: ^5.8.3
   rxjs: ^7.5.7
   vite: ^3.1.8
   vite-plugin-qiankun: ^1.0.15
@@ -46,7 +46,7 @@ devDependencies:
   eslint-plugin-prettier: 4.2.1_hvbqyfstm4urdpm6ffpwfka4e4
   eslint-plugin-react: 7.31.10_eslint@8.25.0
   happy-dom: 7.5.12
-  rollup-plugin-visualizer: 5.8.2
+  rollup-plugin-visualizer: 5.8.3
   vite: 3.1.8
   vite-plugin-qiankun: 1.0.15_sqblxrfllrswlrljwv72fivz5i
   vite-plugin-svgr: 2.2.2_555j7yvyj47olysrn72ef7hyza
@@ -4293,12 +4293,12 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup-plugin-visualizer/5.8.2:
-    resolution: {integrity: sha512-Fh7KoAa7FVVOojmyyX9ro7fBSR7mPG2cgfDbA877HM4IeJJtSZO+I/R3h/u6TB8wVP5J4pXPpTaRMSREyqCS3g==}
+  /rollup-plugin-visualizer/5.8.3:
+    resolution: {integrity: sha512-QGJk4Bqe4AOat5AjipOh8esZH1nck5X2KFpf4VytUdSUuuuSwvIQZjMGgjcxe/zXexltqaXp5Vx1V3LmnQH15Q==}
     engines: {node: '>=14'}
     hasBin: true
     peerDependencies:
-      rollup: ^2.0.0
+      rollup: 2.x || 3.x
     peerDependenciesMeta:
       rollup:
         optional: true
