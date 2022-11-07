@@ -20,7 +20,7 @@ specifiers:
   react-router-dom: ^6.4.3
   rollup-plugin-visualizer: ^5.8.3
   rxjs: ^7.5.7
-  vite: ^3.2.2
+  vite: ^3.2.3
   vite-plugin-qiankun: ^1.0.15
   vite-plugin-svgr: ^2.2.2
   vitest: ^0.24.5
@@ -39,7 +39,7 @@ devDependencies:
   '@types/react-dom': 18.0.8
   '@typescript-eslint/eslint-plugin': 5.42.0_4pzja5brsbkj3dhdttgi77uzay
   '@typescript-eslint/parser': 5.42.0_bbv4pikdfp63x3pyasmn5i66ru
-  '@vitejs/plugin-react': 2.2.0_vite@3.2.2
+  '@vitejs/plugin-react': 2.2.0_vite@3.2.3
   eslint: 8.27.0
   eslint-config-prettier: 8.5.0_eslint@8.27.0
   eslint-config-react-app: 7.0.1_jblkutdy3ieqbskuociuvmolua
@@ -47,9 +47,9 @@ devDependencies:
   eslint-plugin-react: 7.31.10_eslint@8.27.0
   happy-dom: 7.6.6
   rollup-plugin-visualizer: 5.8.3
-  vite: 3.2.2
-  vite-plugin-qiankun: 1.0.15_xnsbmin7hvgzvia2zb4n3y4e4m
-  vite-plugin-svgr: 2.2.2_ai4uazwz44qtuco43bzs222a5q
+  vite: 3.2.3
+  vite-plugin-qiankun: 1.0.15_pxvltjgfohlzcxsftsbigk6miy
+  vite-plugin-svgr: 2.2.2_qxefd6ellb46cbbx3f5c7mgv3i
   vitest: 0.24.5_happy-dom@7.6.6
 
 packages:
@@ -2053,7 +2053,7 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitejs/plugin-react/2.2.0_vite@3.2.2:
+  /@vitejs/plugin-react/2.2.0_vite@3.2.3:
     resolution: {integrity: sha512-FFpefhvExd1toVRlokZgxgy2JtnBOdp4ZDsq7ldCWaqGSGn9UhWMAVm/1lxPL14JfNS5yGz+s9yFrQY6shoStA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -2066,7 +2066,7 @@ packages:
       '@babel/plugin-transform-react-jsx-source': 7.19.6_@babel+core@7.19.6
       magic-string: 0.26.7
       react-refresh: 0.14.0
-      vite: 3.2.2
+      vite: 3.2.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4725,7 +4725,7 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite-plugin-qiankun/1.0.15_xnsbmin7hvgzvia2zb4n3y4e4m:
+  /vite-plugin-qiankun/1.0.15_pxvltjgfohlzcxsftsbigk6miy:
     resolution: {integrity: sha512-0QB0Wr8Eu/LGcuJAfuNXDb7BAFDszo3GCxq4bzgXdSFAlK425u1/UGMxaDEBVA1uPFrLsZPzig83Ufdfl6J45A==}
     peerDependencies:
       typescript: '>=4'
@@ -4733,34 +4733,37 @@ packages:
     dependencies:
       cheerio: 1.0.0-rc.12
       typescript: 4.8.2
-      vite: 3.2.2
+      vite: 3.2.3
     dev: true
 
-  /vite-plugin-svgr/2.2.2_ai4uazwz44qtuco43bzs222a5q:
+  /vite-plugin-svgr/2.2.2_qxefd6ellb46cbbx3f5c7mgv3i:
     resolution: {integrity: sha512-u8Ac27uZmDHTVGawpAhvLMJMuzbGeZGhe61TGeHoRQLxVhmQfIYCefa0iLbjC0ui1zFo6XZnS8EkzPITCYp85g==}
     peerDependencies:
       vite: ^2.6.0 || 3
     dependencies:
       '@rollup/pluginutils': 5.0.1
       '@svgr/core': 6.4.0_@babel+core@7.19.6
-      vite: 3.2.2
+      vite: 3.2.3
     transitivePeerDependencies:
       - '@babel/core'
       - rollup
       - supports-color
     dev: true
 
-  /vite/3.2.2:
-    resolution: {integrity: sha512-pLrhatFFOWO9kS19bQ658CnRYzv0WLbsPih6R+iFeEEhDOuYgYCX2rztUViMz/uy/V8cLCJvLFeiOK7RJEzHcw==}
+  /vite/3.2.3:
+    resolution: {integrity: sha512-h8jl1TZ76eGs3o2dIBSsvXDLb1m/Ec1iej8ZMdz+PsaFUsftZeWe2CZOI3qogEsMNaywc17gu0q6cQDzh/weCQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
+      '@types/node': '>= 14'
       less: '*'
       sass: '*'
       stylus: '*'
       sugarss: '*'
       terser: ^5.4.0
     peerDependenciesMeta:
+      '@types/node':
+        optional: true
       less:
         optional: true
       sass:
@@ -4772,6 +4775,40 @@ packages:
       terser:
         optional: true
     dependencies:
+      esbuild: 0.15.10
+      postcss: 8.4.18
+      resolve: 1.22.1
+      rollup: 2.79.1
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
+  /vite/3.2.3_@types+node@18.7.14:
+    resolution: {integrity: sha512-h8jl1TZ76eGs3o2dIBSsvXDLb1m/Ec1iej8ZMdz+PsaFUsftZeWe2CZOI3qogEsMNaywc17gu0q6cQDzh/weCQ==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    hasBin: true
+    peerDependencies:
+      '@types/node': '>= 14'
+      less: '*'
+      sass: '*'
+      stylus: '*'
+      sugarss: '*'
+      terser: ^5.4.0
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      less:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+    dependencies:
+      '@types/node': 18.7.14
       esbuild: 0.15.10
       postcss: 8.4.18
       resolve: 1.22.1
@@ -4813,7 +4850,7 @@ packages:
       tinybench: 2.3.1
       tinypool: 0.3.0
       tinyspy: 1.0.2
-      vite: 3.2.2
+      vite: 3.2.3_@types+node@18.7.14
     transitivePeerDependencies:
       - less
       - sass
