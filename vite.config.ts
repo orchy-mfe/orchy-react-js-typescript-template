@@ -14,6 +14,13 @@ export default defineConfig(({mode}) => ({
   ],
   base: mode === 'development' ? `http://localhost:${port}/` : '/orchy-react-js-typescript-template/',
   server: {port, cors: true},
+  build: {
+    rollupOptions: {
+      output: {
+        entryFileNames: '[name].js'
+      }
+    }
+  },
   test: {
     environment: 'happy-dom',
     mockReset: true
