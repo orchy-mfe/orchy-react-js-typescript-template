@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@orchy-mfe/models': ^0.2.0
-  '@orchy-mfe/spa-adapter': ^0.1.0
+  '@orchy-mfe/spa-adapter': ^0.1.1
   '@testing-library/react': ^13.4.0
   '@testing-library/user-event': ^14.4.3
   '@types/react': ^18.0.25
@@ -27,7 +27,7 @@ specifiers:
   vitest: ^0.25.2
 
 dependencies:
-  '@orchy-mfe/spa-adapter': 0.1.0
+  '@orchy-mfe/spa-adapter': 0.1.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-router-dom: 6.4.3_biqbaboplfbrettd7655fr4n2y
@@ -1587,8 +1587,8 @@ packages:
       rxjs: 7.5.7
     dev: true
 
-  /@orchy-mfe/spa-adapter/0.1.0:
-    resolution: {integrity: sha512-8cm+VyTu57KsDizbbJMQ0PwGUkyoIeXLqiB8eWAnVQV543vnqASB/qhNeJ7iZkKqoufu1GExDzqNmDKW1q98qQ==}
+  /@orchy-mfe/spa-adapter/0.1.1:
+    resolution: {integrity: sha512-W+NiBtqxXoj2ahyaFO36Qlsfm9ZKtfyRcKUEtF+R7Ri38LgBNo7WK1gMSYlTkMkZ7JpLCW9cR/VcMEMUsu+EEw==}
     dependencies:
       lit: 2.4.1
     dev: false
