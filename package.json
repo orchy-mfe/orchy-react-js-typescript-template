@@ -30,7 +30,7 @@
     "eslint-config-prettier": "^9.0.0",
     "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-prettier": "^5.0.0",
-    "eslint-plugin-react": "^7.33.1",
+    "eslint-plugin-react": "^7.33.2",
     "happy-dom": "^10.10.0",
     "rollup-plugin-visualizer": "^5.9.2",
     "vite": "^4.4.9",
