@@ -12,8 +12,8 @@
   },
   "dependencies": {
     "@orchy-mfe/spa-adapter": "^0.1.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-router-dom": "^6.22.3",
     "rxjs": "^7.8.1"
   },
@@ -21,8 +21,8 @@
     "@orchy-mfe/models": "^0.3.0",
     "@testing-library/react": "^15.0.7",
     "@testing-library/user-event": "^14.5.2",
-    "@types/react": "^18.2.79",
-    "@types/react-dom": "^18.2.25",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "@vitejs/plugin-react": "^4.3.1",
