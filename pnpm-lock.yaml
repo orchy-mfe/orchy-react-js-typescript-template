@@ -59,8 +59,8 @@ devDependencies:
     specifier: ^5.2.1
     version: 5.2.1(eslint-config-prettier@9.1.0)(eslint@8.57.0)(prettier@3.0.0)
   eslint-plugin-react:
-    specifier: ^7.35.1
-    version: 7.35.1(eslint@8.57.0)
+    specifier: ^7.35.2
+    version: 7.35.2(eslint@8.57.0)
   happy-dom:
     specifier: ^15.7.3
     version: 15.7.3
@@ -3587,7 +3587,7 @@ packages:
       eslint-plugin-import: 2.26.0(@typescript-eslint/parser@5.62.0)(eslint@8.57.0)
       eslint-plugin-jest: 25.7.0(@typescript-eslint/eslint-plugin@5.62.0)(eslint@8.57.0)(typescript@4.8.2)
       eslint-plugin-jsx-a11y: 6.6.1(eslint@8.57.0)
-      eslint-plugin-react: 7.35.1(eslint@8.57.0)
+      eslint-plugin-react: 7.35.2(eslint@8.57.0)
       eslint-plugin-react-hooks: 4.6.0(eslint@8.57.0)
       eslint-plugin-testing-library: 5.6.0(eslint@8.57.0)(typescript@4.8.2)
       typescript: 4.8.2
@@ -3757,8 +3757,8 @@ packages:
       eslint: 8.57.0
     dev: true
 
-  /eslint-plugin-react@7.35.1(eslint@8.57.0):
-    resolution: {integrity: sha512-B5ok2JgbaaWn/zXbKCGgKDNL2tsID3Pd/c/yvjcpsd9HQDwyYc/TQv3AZMmOvrJgCs3AnYNUHRCQEMMQAYJ7Yg==}
+  /eslint-plugin-react@7.35.2(eslint@8.57.0):
+    resolution: {integrity: sha512-Rbj2R9zwP2GYNcIak4xoAMV57hrBh3hTaR0k7hVjwCQgryE/pw5px4b13EYjduOI0hfXyZhwBxaGpOTbWSGzKQ==}
     engines: {node: '>=4'}
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7
