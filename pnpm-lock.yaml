@@ -62,8 +62,8 @@ devDependencies:
     specifier: ^7.37.2
     version: 7.37.2(eslint@8.57.1)
   happy-dom:
-    specifier: ^15.11.0
-    version: 15.11.0
+    specifier: ^15.11.2
+    version: 15.11.2
   rollup-plugin-visualizer:
     specifier: ^5.12.0
     version: 5.12.0
@@ -78,7 +78,7 @@ devDependencies:
     version: 3.3.0(vite@5.4.11)
   vitest:
     specifier: ^2.1.4
-    version: 2.1.4(happy-dom@15.11.0)
+    version: 2.1.4(happy-dom@15.11.2)
 
 packages:
 
@@ -3943,8 +3943,8 @@ packages:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
     dev: true
 
-  /happy-dom@15.11.0:
-    resolution: {integrity: sha512-/zyxHbXriYJ8b9Urh43ILk/jd9tC07djURnJuAimJ3tJCOLOzOUp7dEHDwJOZyzROlrrooUhr/0INZIDBj1Bjw==}
+  /happy-dom@15.11.2:
+    resolution: {integrity: sha512-MZ8kazOz+8i9G+olnJS836mNaF96UhOTzuECmxdE56+1+juiubqaJHTJUf+1WZ6Vs09lKLdmfX2AxGslfj1XFg==}
     engines: {node: '>=18.0.0'}
     dependencies:
       entities: 4.5.0
@@ -5393,7 +5393,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@2.1.4(happy-dom@15.11.0):
+  /vitest@2.1.4(happy-dom@15.11.2):
     resolution: {integrity: sha512-eDjxbVAJw1UJJCHr5xr/xM86Zx+YxIEXGAR+bmnEID7z9qWfoxpHw0zdobz+TQAFOLT+nEXz3+gx6nUJ7RgmlQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -5428,7 +5428,7 @@ packages:
       chai: 5.1.2
       debug: 4.3.7
       expect-type: 1.1.0
-      happy-dom: 15.11.0
+      happy-dom: 15.11.2
       magic-string: 0.30.12
       pathe: 1.1.2
       std-env: 3.7.0
