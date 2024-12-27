@@ -31,7 +31,7 @@
     "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-react": "^7.37.3",
-    "happy-dom": "^16.0.0",
+    "happy-dom": "^16.0.1",
     "rollup-plugin-visualizer": "^5.12.0",
     "vite": "^6.0.6",
     "vite-plugin-css-injected-by-js": "^3.5.2",
