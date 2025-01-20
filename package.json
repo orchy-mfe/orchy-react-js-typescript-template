@@ -33,7 +33,7 @@
     "eslint-plugin-react": "^7.37.4",
     "happy-dom": "^16.6.0",
     "rollup-plugin-visualizer": "^5.13.1",
-    "vite": "^6.0.7",
+    "vite": "^6.0.9",
     "vite-plugin-css-injected-by-js": "^3.5.2",
     "vite-plugin-svgr": "^3.3.0",
     "vitest": "^3.0.2"
