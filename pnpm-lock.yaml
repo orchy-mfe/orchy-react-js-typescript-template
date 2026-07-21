@@ -9,14 +9,14 @@ dependencies:
     specifier: ^0.1.1
     version: 0.1.1
   react:
-    specifier: ^19.0.0
-    version: 19.0.0
+    specifier: ^19.2.8
+    version: 19.2.8
   react-dom:
     specifier: ^19.0.0
-    version: 19.0.0(react@19.0.0)
+    version: 19.0.0(react@19.2.8)
   react-router-dom:
     specifier: ^7.1.5
-    version: 7.1.5(react-dom@19.0.0)(react@19.0.0)
+    version: 7.1.5(react-dom@19.0.0)(react@19.2.8)
   rxjs:
     specifier: ^7.8.1
     version: 7.8.1
@@ -27,7 +27,7 @@ devDependencies:
     version: 0.3.0
   '@testing-library/react':
     specifier: ^16.2.0
-    version: 16.2.0(@testing-library/dom@10.0.0)(@types/react-dom@19.0.3)(@types/react@19.0.8)(react-dom@19.0.0)(react@19.0.0)
+    version: 16.2.0(@testing-library/dom@10.0.0)(@types/react-dom@19.0.3)(@types/react@19.0.8)(react-dom@19.0.0)(react@19.2.8)
   '@testing-library/user-event':
     specifier: ^14.6.1
     version: 14.6.1(@testing-library/dom@10.0.0)
@@ -2307,7 +2307,7 @@ packages:
       pretty-format: 27.5.1
     dev: true
 
-  /@testing-library/react@16.2.0(@testing-library/dom@10.0.0)(@types/react-dom@19.0.3)(@types/react@19.0.8)(react-dom@19.0.0)(react@19.0.0):
+  /@testing-library/react@16.2.0(@testing-library/dom@10.0.0)(@types/react-dom@19.0.3)(@types/react@19.0.8)(react-dom@19.0.0)(react@19.2.8):
     resolution: {integrity: sha512-2cSskAvA1QNtKc8Y9VJQRv0tm3hLVgxRGDB+KYhIaPQJ1I+RHbhIXcM+zClKXzMes/wshsMVzf4B9vS4IZpqDQ==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -2326,8 +2326,8 @@ packages:
       '@testing-library/dom': 10.0.0
       '@types/react': 19.0.8
       '@types/react-dom': 19.0.3(@types/react@19.0.8)
-      react: 19.0.0
-      react-dom: 19.0.0(react@19.0.0)
+      react: 19.2.8
+      react-dom: 19.0.0(react@19.2.8)
     dev: true
 
   /@testing-library/user-event@14.6.1(@testing-library/dom@10.0.0):
@@ -4948,12 +4948,12 @@ packages:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
     dev: true
 
-  /react-dom@19.0.0(react@19.0.0):
+  /react-dom@19.0.0(react@19.2.8):
     resolution: {integrity: sha512-4GV5sHFG0e/0AD4X+ySy6UJd3jVl1iNsNHdpad0qhABJ11twS3TTBnseqsKurKcsNqCEFeGL3uLpVChpIO3QfQ==}
     peerDependencies:
       react: ^19.0.0
     dependencies:
-      react: 19.0.0
+      react: 19.2.8
       scheduler: 0.25.0
 
   /react-is@16.13.1:
@@ -4969,19 +4969,19 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /react-router-dom@7.1.5(react-dom@19.0.0)(react@19.0.0):
+  /react-router-dom@7.1.5(react-dom@19.0.0)(react@19.2.8):
     resolution: {integrity: sha512-/4f9+up0Qv92D3bB8iN5P1s3oHAepSGa9h5k6tpTFlixTTskJZwKGhJ6vRJ277tLD1zuaZTt95hyGWV1Z37csQ==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      react: 19.0.0
-      react-dom: 19.0.0(react@19.0.0)
-      react-router: 7.1.5(react-dom@19.0.0)(react@19.0.0)
+      react: 19.2.8
+      react-dom: 19.0.0(react@19.2.8)
+      react-router: 7.1.5(react-dom@19.0.0)(react@19.2.8)
     dev: false
 
-  /react-router@7.1.5(react-dom@19.0.0)(react@19.0.0):
+  /react-router@7.1.5(react-dom@19.0.0)(react@19.2.8):
     resolution: {integrity: sha512-8BUF+hZEU4/z/JD201yK6S+UYhsf58bzYIDq2NS1iGpwxSXDu7F+DeGSkIXMFBuHZB21FSiCzEcUb18cQNdRkA==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
@@ -4993,14 +4993,14 @@ packages:
     dependencies:
       '@types/cookie': 0.6.0
       cookie: 1.0.2
-      react: 19.0.0
-      react-dom: 19.0.0(react@19.0.0)
+      react: 19.2.8
+      react-dom: 19.0.0(react@19.2.8)
       set-cookie-parser: 2.7.1
       turbo-stream: 2.4.0
     dev: false
 
-  /react@19.0.0:
-    resolution: {integrity: sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ==}
+  /react@19.2.8:
+    resolution: {integrity: sha512-PWaYA1L/q9u2u7xYQi+Y3L3Yfnie7XyLeaJICV1MGD6LprsBxcAqGjYyr0eY3p+QdsA+x/Irkt4Qif8D63+Sbw==}
     engines: {node: '>=0.10.0'}
 
   /reflect.getprototypeof@1.0.9:
